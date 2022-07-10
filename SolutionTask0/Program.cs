@@ -1,11 +1,12 @@
-﻿string? InputLine = Console.ReadLine();
+﻿string? inputLine = Console.ReadLine();
 
-if (InputLine != null)
+if (inputLine != null)
 {
-    int InputNumber = int.Parse(InputLine);
+    int inputNumber = int.Parse(inputLine);
     
-    //int OutNumber = InputNumber * InputNumber;
-    int OutNumber = (int)Math.Pow(InputNumber, 2);
+    //int outNumber = inputNumber * inputNumber;
+    int outNumber = (int)Math.Pow(inputNumber, 2);
     
-    Console.WriteLine(OutNumber);
+    Console.WriteLine(outNumber);
 }
+
