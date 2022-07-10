@@ -1,12 +1,12 @@
-﻿string? InputLineOne = Console.ReadLine();
-string? InputLineTwo = Console.ReadLine();
+﻿string? inputLineOne = Console.ReadLine();
+string? inputLineTwo = Console.ReadLine();
 
-if (InputLineOne != null && InputLineTwo != null)
+if (inputLineOne != null && inputLineTwo != null)
 {
-    int InputNumberOne = int.Parse(InputLineOne);
-    int InputNumberTwo = int.Parse(InputLineTwo);
+    int inputNumberOne = int.Parse(inputLineOne);
+    int inputNumberTwo = int.Parse(inputLineTwo);
     
-    if (InputNumberTwo == Math.Sqrt(InputNumberOne))
+    if (inputNumberTwo == Math.Sqrt(inputNumberOne))
     {
         Console.WriteLine("Yes");
     }
