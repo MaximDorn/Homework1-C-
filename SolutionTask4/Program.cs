@@ -20,6 +20,6 @@ if (inputLineA != null && inputLineB != null && inputLineC != null)
         Max = inputNumberC;
     }
 
-Console.WriteLine(Max);
+Console.WriteLine("Максимальное значение =" + " " + Max);
 
 }
