@@ -1,10 +1,10 @@
-﻿string? InputLine = Console.ReadLine();
+﻿string? inputLine = Console.ReadLine();
 
-if (InputLine != null)
+if (inputLine != null)
 {
-    int InputNumber = int.Parse(InputLine);
+    int inputNumber = int.Parse(inputLine);
 
-    switch (InputNumber)
+    switch (inputNumber)
 {
     case 1:
     Console.WriteLine ("Понедельник");

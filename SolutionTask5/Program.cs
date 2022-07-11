@@ -1,8 +1,8 @@
-﻿string? InputLine = Console.ReadLine();
+﻿string? inputLine = Console.ReadLine();
 
-if (InputLine != null)
+if (inputLine != null)
 {
-    int inputNumber = int.Parse(InputLine);
+    int inputNumber = int.Parse(inputLine);
     
     int startNumber = 1;
 
