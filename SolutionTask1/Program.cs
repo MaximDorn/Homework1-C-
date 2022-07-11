@@ -16,5 +16,4 @@ if (inputLineOne != null && inputLineTwo != null)
         Console.WriteLine("No");
     }
 
-
 }
