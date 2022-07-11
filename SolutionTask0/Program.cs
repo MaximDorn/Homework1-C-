@@ -9,4 +9,3 @@ if (inputLine != null)
     
     Console.WriteLine(outNumber);
 }
-
