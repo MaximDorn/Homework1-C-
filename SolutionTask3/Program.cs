@@ -45,6 +45,5 @@ if (inputLine != null)
  //   dayOfWeek[6] = "Воскресенье";
 
     
- //   Console.WriteLine(dayOfWeek[InputNumber-1]);
-    
+ //   Console.WriteLine(dayOfWeek[InputNumber-1]); 
 }
