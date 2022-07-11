@@ -9,6 +9,7 @@ int yb= 30;
 int xc= 80; 
 int yc= 30;
 
+
 Console.SetCursorPosition(xa, ya);
 Console.WriteLine("+");
 
