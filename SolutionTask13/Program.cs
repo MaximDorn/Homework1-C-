@@ -4,7 +4,7 @@ string? inputNumber = Console.ReadLine();
 
 if (inputNumber != null)
 {
-    char[] array = inputNumber.ToCharArray(); // Преобразование введённой строки в массив методом "ToCharArray"
+    char[] array = inputNumber.ToCharArray(); // Конвертация введённой строки в массив методом "ToCharArray"
     if (array.Length > 2) // Проверка наличия третьей цифры (длина массива > 2)
     {
         Console.WriteLine("Третья цифра числа: " + array[2]); // "array[2]", потому что отчёт в массиве ведётся с индекса "0"
