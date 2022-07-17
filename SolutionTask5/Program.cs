@@ -16,6 +16,5 @@ startNumber++;
 
 // lineOutput = lineOutput + inputNumber;
 
-    Console.WriteLine(lineOutput);
-    
+    Console.WriteLine(lineOutput);  
 }
