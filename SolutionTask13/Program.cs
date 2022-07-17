@@ -4,10 +4,10 @@ string? inputNumber = Console.ReadLine();
 
 if (inputNumber != null)
 {
-    Char[] array = inputNumber.ToCharArray(); // Преобразование введённой строки в массив методом "ToCharArray"
+    char[] array = inputNumber.ToCharArray(); // Преобразование введённой строки в массив методом "ToCharArray"
     if (array.Length > 2) // Проверка наличия третьей цифры (длина массива > 2)
     {
-        Console.WriteLine(array[2]);
+        Console.WriteLine("Третья цифра числа: " + array[2]);
     }
     else
     {
