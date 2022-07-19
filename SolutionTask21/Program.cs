@@ -43,7 +43,9 @@ void calculateLengthAB()
                Math.Pow((coordZA - coordZB), 2));
 }
 
+// Вызов заданных методов
 readDataOfPoint();
 calculateLengthAB();
 
+// Вывод результата
 Console.WriteLine("Длина отрезка AB = " + lengthAB);
