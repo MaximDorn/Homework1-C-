@@ -7,16 +7,16 @@ string? inputLine = Console.ReadLine();
 if (inputLine != null)
 {
     char[] array = inputLine.ToCharArray(); // Конвертация введённой строки в массив методом "ToCharArray"
-    if (array.Length != 5) // Проверка на то, что ввели именно пятизначное число
+    if (array.Length == 5) // Проверка на то, что ввели именно пятизначное число
     {
-        Console.WriteLine("Введено не пятизначное число: необходимо повторить ввод!");
+        palendromCheck(); // Вызов метода, проверяющего пятизначное число на палиндром
     }
     else
     {
-        palendromCheck();
+        Console.WriteLine("Введено не пятизначное число: необходимо повторить ввод!");
     }
 }
-void palendromCheck() // Метод проверяет является ли введённое пятизначное число палиндромом
+void palendromCheck() // Метод, проверяющий пятизначное число на палиндром
         {
             int D = int.Parse(inputLine);
             int D1 = D / 10000;
