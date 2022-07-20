@@ -11,13 +11,15 @@ if (inputLineN != null)
     string lineN = string.Empty;
     string lineNNN = string.Empty;
     int s = 1; 
-    
+
     while (s <= numberN)
     {
         lineN = lineN + s + " ";
         lineNNN = lineNNN + s * s * s + " "; // LineNNN будет накапливать кубы
         s++;
     }
+
     Console.WriteLine(lineN);
     Console.WriteLine(lineNNN);
+    Console.WriteLine("Число\tКвадрат\tКуб");
 }
